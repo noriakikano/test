@@ -1,3 +1,45 @@
 body {
   font-family: sans-serif;
 }
+
+input {
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  border-radius: 16px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  border-radius: 16px;
+}
+
+button:hover {
+  background-color: lightpink;
+  color: white;
+  cursor: pointer;
+}
+
+.inputToDo {
+  background-color: blue;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.undo {
+  background-color: cyan;
+  width: 400px;
+  border-radius: 16px;
+  padding: 6px 16px;
+}
+
+.done {
+  background-color: khaki;
+  width: 400px;
+  border-radius: 16px;
+}
