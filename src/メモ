@@ -1,0 +1,139 @@
+
+/ const name = `nori`;
+// const age = `34`;
+
+// const message = `私は${name}で${age}です`;
+
+// console.log(message);
+
+// アロー関数
+// function test1(str) {
+//   return str;
+// }
+// console.log(test1("miwaです　"));
+
+// const func2 = (str) => {
+//   return str;
+// };
+
+// console.log(func2(`itou`));
+
+// const profile = {
+//   name: `nori`,
+//   age: 34,
+//   address: `tokyo`
+// };
+
+// const message = `私は${profile.name}で${profile.age}ですv${profile.address}`;
+// console.log(message);
+
+// // 分割代入;
+
+// const { name, age } = profile;
+// const message2 = `私は${name}で${age}ですv${profile.address}`;
+// console.log(message2);
+
+//配列の分割代入
+
+const profile3 = [`nori`, 36, `tokyo`];
+
+// const message3 = `私は${profile3[0]}で${profile3[1]}です`;
+// console.log(message3);
+
+const [name, age] = profile3;
+const message4 = `私は${name}で${age}です`;
+console.log(message4);
+
+
+// デフォルト
+// const sayHello = (name = `ゲスト`) => console.log(`こんにちは${name}さん`);
+// sayHello();
+
+// スプレッド構文
+
+// 配列の展開
+// const arr = [1, 2];
+// console.log(arr);
+// console.log(...arr);
+
+// const sumFunc = (num1, num2) => console.log(num1 + num2);
+// sumFunc(arr[0], arr[1]);
+// sumFunc(...arr);
+
+//まとめる
+// const arr3 = [1, 2, 3, 4, 5];
+
+// const [num1,...num] = arr3;
+
+// console.log(num1);
+
+//配列のコピー,結合
+
+// const arr4 = [10, 30];
+// const arr5 = [30, 40];
+// const arr6 = [...arr4];
+
+// console.log(arr6);
+
+// const arr8 = [...arr4];
+// arr4[0] = 100;
+// console.log(arr8);
+// console.log(arr4);
+
+
+//for分の代わり
+
+const nameArr = [`田中`, `山田`, `ジャガイモ`];
+
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(nameArr[index]) ;
+// }
+
+// nameArr.map((name) => console.log(name));
+
+// const nameArr2 = nameArr.map((name) => {
+//   return name;
+// });
+
+// console.log(nameArr2);
+
+// const numArr = [1, 2, 3, 4, 5];
+
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 1;
+// });
+
+// console.log(newNumArr);
+
+
+三項演算子
+// const val1 = 1 > 0 ? `a` : `b`;
+
+// console.log(val1);
+
+// const num = 1300;
+
+// console.log(num.toLocaleString(num));
+
+// const formattednum =
+//   typeof num === `number` ? num.toLocaleString(num) : `数値じゃないよ`;
+
+// console.log(formattednum);
+
+
+// const flag1 = null;
+// const flag2 = true;
+
+// //左側がtrueなら右を返す
+// if (flag1 && flag2) {
+//   console.log("双方true");
+// }
+
+// //左側がfalseなら右を返す
+// if (flag1 || flag2) {
+//   console.log("AかBはtrue");
+// }
+
+// const num = null;
+// const fee = num || `未設定`;
+// console.log(fee);
